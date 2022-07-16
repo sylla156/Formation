@@ -1,0 +1,24 @@
+{
+  "dependencies": {
+    "parcel-bundler": "^1.12.5",
+    "robot3": "^0.3.1"
+  },
+  "name": "formation",
+  "description": "Ma formation sur les techno durant mon stage",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sylla156/Formation.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sylla156/Formation/issues"
+  },
+  "homepage": "https://github.com/sylla156/Formation#readme"
+}
