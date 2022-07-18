@@ -31,19 +31,9 @@ const machine = createMachine(
   () => ({ title: "hello" })
 );
 
-// const service = interpret(machine, () => {
-//   console.log(service.machine.current);
-//   console.log(service.context);
-// });
+const service = interpret(machine, () => {
+  console.log(service.machine.current);
+  console.log(service.context);
+});
 
-// service.send("input");
-
-const useMachine = (machine) => {
-  const service = interpret(machine, () => {
-    setCurrent(service.current.machine);
-  });
-
-  const [current, setCurrent] = useState(service.current.machine);
-
-  const send = useCallback()
-};
+service.send("input");
